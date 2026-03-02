@@ -19,7 +19,7 @@
 }
 .menu a: hover{
     background-color: pink;
-    color:black;
+    color:pink;
 }
 .content{
     flex: 70%;
