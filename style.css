@@ -14,10 +14,10 @@
     align-items: center;
 }
 .menu a{
-    pading:15px 20px;
+    padding:15px 20px;
     color: blue;
 }
-.menu hover{
+.menu a: hover{
     background-color: lightgray;
     color:black;
 }
