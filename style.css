@@ -5,7 +5,7 @@
 }
 .header{
     flex: 15%;
-    background-color: lightblue;
+    background-color: yellow;
 }
 .menu{
     flex: 5%;
@@ -15,7 +15,7 @@
 }
 .menu a{
     padding:15px 20px;
-    color: blue;
+    color: pink;
 }
 .menu a: hover{
     background-color: pink;
@@ -33,7 +33,7 @@
 }
 .footer{
     flex: 10%;
-    background-color: lightgray;
+    background-color: white;
 }
 h1 {
   color: red;
