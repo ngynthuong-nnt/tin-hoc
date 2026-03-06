@@ -10,13 +10,13 @@
 .menu{
     flex: 5%;
     background-color: darkgray;
+    color: white
     display: flex;
     align-items: center;
 }
 .menu a{
     padding:15px 20px;
     color: pink;
-}
 .menu a: hover{
     background-color: pink;
     color:pink;
