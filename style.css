@@ -4,8 +4,12 @@
     height: 100vh;
 }
 .header{
+    padding: 0px;
+    margin: 0px;
     flex: 15%;
+    background:url("image/1772761144735.png") center/100% 
     background-color: yellow;
+    aspect-ratio: 6/1;
 }
 .menu{
     flex: 5%;
