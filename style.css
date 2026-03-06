@@ -8,13 +8,12 @@
     margin: 0px;
     flex: 15%;
     background:url("image/1772761144735.png") center/100% ;
-    background-color: white;
     aspect-ratio: 6/1;
 }
 .menu{
     flex: 5%;
     background-color: darkgray;
-    color: white
+    color: white;
     display: flex;
     align-items: center;
 }
