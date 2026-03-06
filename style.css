@@ -21,6 +21,7 @@
 .menu a{
     padding:15px 20px;
     color: pink;
+}
 .menu a: hover{
     background-color: pink;
     color:pink;
