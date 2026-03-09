@@ -10,8 +10,7 @@
 }
 .menu{
     flex: 5%;
-    background-color: darkgray;
-    color: white;
+    background-color: yellow;
     display: flex;
     align-items: center;
 }
@@ -20,8 +19,7 @@
     color: pink;
 }
 .menu a: hover{
-    background-color: pink;
-    color:pink;
+    background-color:light yellow;
 }
 .content{
     flex: 70%;
