@@ -16,7 +16,7 @@
 }
 .menu a{
     padding:15px 20px;
-    color: pink;
+    color: dark pink;
 }
 .menu a: hover{
     background-color:light yellow;
