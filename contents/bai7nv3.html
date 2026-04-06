@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Phản hồi</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="intro-body">
+
+    <div class="intro-container">
+        <div class="intro-content">
+            <h1 class="f-title">Đóng góp ý kiến thành công</h1>
+           
+            <div class="form-container">
+                <p class="f-text" id="kq" style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; border-left: 5px solid #2c3e50;">
+                    </p>
+
+                <p class="f-text" style="margin-top: 20px;">
+                    Chúng tôi xin ghi nhận ý kiến của bạn và sẽ cải tiến, nâng cao chất lượng phục vụ hơn nữa trong thời gian sắp tới.
+                </p>
+
+                <div style="margin-top: 20px;">
+                    <a href="Bai7-NV1.html" class="btn-submit" style="text-decoration: none; display: inline-block;">Quay lại</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let pp = new URLSearchParams(window.location.search);
+        let ten = pp.get("txtTen");
+        let yk = pp.get("txtComment");
+        document.getElementById("kq").innerHTML =
+            "Cảm ơn bạn <b>" + (ten ? ten : "khách") + "</b> đã đóng góp ý kiến.<br><br>" +
+            "Chúng tôi xin ghi nhận ý kiến của bạn như sau: <br><i>" + (yk ? yk : "(Trống)") + "</i>";
+    </script>
+
+</body>
+</html>
